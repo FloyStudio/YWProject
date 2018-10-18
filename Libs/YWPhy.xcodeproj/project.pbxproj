@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		982B31EC217827BE0079F26B /* YWPhyPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31E9217827BE0079F26B /* YWPhyPriv.h */; };
-		982B31FA21782C3C0079F26B /* YWPhy.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31F821782C3C0079F26B /* YWPhy.h */; };
-		982B31FB21782C3C0079F26B /* YWPhy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 982B31F921782C3C0079F26B /* YWPhy.cpp */; };
+		982B31EC217827BE0079F26B /* YWPhyWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31E9217827BE0079F26B /* YWPhyWorld.h */; };
+		982B31FA21782C3C0079F26B /* YWParticle.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31F821782C3C0079F26B /* YWParticle.h */; };
+		982B31FB21782C3C0079F26B /* YWParticle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 982B31F921782C3C0079F26B /* YWParticle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		982B31D9217826B20079F26B /* libYWPhy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWPhy.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		982B31E9217827BE0079F26B /* YWPhyPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPhyPriv.h; sourceTree = "<group>"; };
+		982B31E9217827BE0079F26B /* YWPhyWorld.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = YWPhyWorld.h; sourceTree = "<group>"; };
 		982B31EE217828C00079F26B /* libYWMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYWMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		982B31F821782C3C0079F26B /* YWPhy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPhy.h; sourceTree = "<group>"; };
-		982B31F921782C3C0079F26B /* YWPhy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YWPhy.cpp; sourceTree = "<group>"; };
+		982B31F821782C3C0079F26B /* YWParticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWParticle.h; sourceTree = "<group>"; };
+		982B31F921782C3C0079F26B /* YWParticle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YWParticle.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +51,9 @@
 		982B31DB217826B20079F26B /* YWPhy */ = {
 			isa = PBXGroup;
 			children = (
-				982B31F921782C3C0079F26B /* YWPhy.cpp */,
-				982B31F821782C3C0079F26B /* YWPhy.h */,
-				982B31E9217827BE0079F26B /* YWPhyPriv.h */,
+				982B31F921782C3C0079F26B /* YWParticle.cpp */,
+				982B31F821782C3C0079F26B /* YWParticle.h */,
+				982B31E9217827BE0079F26B /* YWPhyWorld.h */,
 			);
 			path = YWPhy;
 			sourceTree = "<group>";
@@ -73,8 +73,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982B31FA21782C3C0079F26B /* YWPhy.h in Headers */,
-				982B31EC217827BE0079F26B /* YWPhyPriv.h in Headers */,
+				982B31FA21782C3C0079F26B /* YWParticle.h in Headers */,
+				982B31EC217827BE0079F26B /* YWPhyWorld.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982B31FB21782C3C0079F26B /* YWPhy.cpp in Sources */,
+				982B31FB21782C3C0079F26B /* YWParticle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
