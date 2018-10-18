@@ -4,18 +4,10 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>YW.xcscheme</key>
+		<key>YWMath.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
-	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>982B317821772AC10079F26B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
+			<integer>2</integer>
 		</dict>
 	</dict>
 </dict>

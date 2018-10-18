@@ -7,138 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		982B319D21772C490079F26B /* libYWPhy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982B319C21772C490079F26B /* libYWPhy.a */; };
-		982B31CB217825250079F26B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 982B31CA217825250079F26B /* main.cpp */; };
+		982B31EC217827BE0079F26B /* YWPhyPriv.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31E9217827BE0079F26B /* YWPhyPriv.h */; };
+		982B31FA21782C3C0079F26B /* YWPhy.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31F821782C3C0079F26B /* YWPhy.h */; };
+		982B31FB21782C3C0079F26B /* YWPhy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 982B31F921782C3C0079F26B /* YWPhy.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		982B317721772AC10079F26B /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = usr/share/man/man1;
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		982B317921772AC10079F26B /* YW */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YW; sourceTree = BUILT_PRODUCTS_DIR; };
-		982B319C21772C490079F26B /* libYWPhy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYWPhy.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		982B31CA217825250079F26B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = YWTest/main.cpp; sourceTree = "<group>"; };
+		982B31D9217826B20079F26B /* libYWPhy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWPhy.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		982B31E9217827BE0079F26B /* YWPhyPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPhyPriv.h; sourceTree = "<group>"; };
+		982B31EE217828C00079F26B /* libYWMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYWMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		982B31F821782C3C0079F26B /* YWPhy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPhy.h; sourceTree = "<group>"; };
+		982B31F921782C3C0079F26B /* YWPhy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = YWPhy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		982B317621772AC10079F26B /* Frameworks */ = {
+		982B31D7217826B20079F26B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982B319D21772C490079F26B /* libYWPhy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		982B317021772AC10079F26B = {
+		982B31D0217826B20079F26B = {
 			isa = PBXGroup;
 			children = (
-				982B31A621772E870079F26B /* src */,
-				982B317A21772AC10079F26B /* Products */,
-				982B319B21772C490079F26B /* Frameworks */,
+				982B31DB217826B20079F26B /* YWPhy */,
+				982B31DA217826B20079F26B /* Products */,
+				982B31ED217828BF0079F26B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		982B317A21772AC10079F26B /* Products */ = {
+		982B31DA217826B20079F26B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				982B317921772AC10079F26B /* YW */,
+				982B31D9217826B20079F26B /* libYWPhy.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		982B319B21772C490079F26B /* Frameworks */ = {
+		982B31DB217826B20079F26B /* YWPhy */ = {
 			isa = PBXGroup;
 			children = (
-				982B319C21772C490079F26B /* libYWPhy.a */,
+				982B31F921782C3C0079F26B /* YWPhy.cpp */,
+				982B31F821782C3C0079F26B /* YWPhy.h */,
+				982B31E9217827BE0079F26B /* YWPhyPriv.h */,
+			);
+			path = YWPhy;
+			sourceTree = "<group>";
+		};
+		982B31ED217828BF0079F26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				982B31EE217828C00079F26B /* libYWMath.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		982B31A621772E870079F26B /* src */ = {
-			isa = PBXGroup;
-			children = (
-				982B31CA217825250079F26B /* main.cpp */,
-			);
-			name = src;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		982B31D5217826B20079F26B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982B31FA21782C3C0079F26B /* YWPhy.h in Headers */,
+				982B31EC217827BE0079F26B /* YWPhyPriv.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		982B317821772AC10079F26B /* YW */ = {
+		982B31D8217826B20079F26B /* YWPhy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 982B318021772AC10079F26B /* Build configuration list for PBXNativeTarget "YW" */;
+			buildConfigurationList = 982B31E4217826B20079F26B /* Build configuration list for PBXNativeTarget "YWPhy" */;
 			buildPhases = (
-				982B317521772AC10079F26B /* Sources */,
-				982B317621772AC10079F26B /* Frameworks */,
-				982B317721772AC10079F26B /* Copy Files */,
+				982B31D5217826B20079F26B /* Headers */,
+				982B31D6217826B20079F26B /* Sources */,
+				982B31D7217826B20079F26B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = YW;
-			productName = YW;
-			productReference = 982B317921772AC10079F26B /* YW */;
-			productType = "com.apple.product-type.tool";
+			name = YWPhy;
+			productName = YWPhy;
+			productReference = 982B31D9217826B20079F26B /* libYWPhy.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		982B317121772AC10079F26B /* Project object */ = {
+		982B31D1217826B20079F26B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = FloyStudio;
 				TargetAttributes = {
-					982B317821772AC10079F26B = {
+					982B31D8217826B20079F26B = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 982B317421772AC10079F26B /* Build configuration list for PBXProject "YW" */;
+			buildConfigurationList = 982B31D4217826B20079F26B /* Build configuration list for PBXProject "YWPhy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 982B317021772AC10079F26B;
-			productRefGroup = 982B317A21772AC10079F26B /* Products */;
+			mainGroup = 982B31D0217826B20079F26B;
+			productRefGroup = 982B31DA217826B20079F26B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				982B317821772AC10079F26B /* YW */,
+				982B31D8217826B20079F26B /* YWPhy */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		982B317521772AC10079F26B /* Sources */ = {
+		982B31D6217826B20079F26B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982B31CB217825250079F26B /* main.cpp in Sources */,
+				982B31FB21782C3C0079F26B /* YWPhy.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		982B317E21772AC10079F26B /* Debug */ = {
+		982B31E2217826B20079F26B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -189,7 +192,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../Libs;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -198,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		982B317F21772AC10079F26B /* Release */ = {
+		982B31E3217826B20079F26B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +245,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = ../Libs;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -251,48 +252,56 @@
 			};
 			name = Release;
 		};
-		982B318121772AC10079F26B /* Debug */ = {
+		982B31E5217826B20079F26B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT5BG8GC7H;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = ../Libs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		982B318221772AC10079F26B /* Release */ = {
+		982B31E6217826B20079F26B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YT5BG8GC7H;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				HEADER_SEARCH_PATHS = ../Libs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		982B317421772AC10079F26B /* Build configuration list for PBXProject "YW" */ = {
+		982B31D4217826B20079F26B /* Build configuration list for PBXProject "YWPhy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				982B317E21772AC10079F26B /* Debug */,
-				982B317F21772AC10079F26B /* Release */,
+				982B31E2217826B20079F26B /* Debug */,
+				982B31E3217826B20079F26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
-		982B318021772AC10079F26B /* Build configuration list for PBXNativeTarget "YW" */ = {
+		982B31E4217826B20079F26B /* Build configuration list for PBXNativeTarget "YWPhy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				982B318121772AC10079F26B /* Debug */,
-				982B318221772AC10079F26B /* Release */,
+				982B31E5217826B20079F26B /* Debug */,
+				982B31E6217826B20079F26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 982B317121772AC10079F26B /* Project object */;
+	rootObject = 982B31D1217826B20079F26B /* Project object */;
 }

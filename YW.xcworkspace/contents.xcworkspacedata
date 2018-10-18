@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Demos/YW.xcodeproj">
+      location = "group:Libs/YWPhy.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Build/YWPhy.xcodeproj">
+      location = "group:Libs/YWMath.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demos/YW.xcodeproj">
    </FileRef>
 </Workspace>

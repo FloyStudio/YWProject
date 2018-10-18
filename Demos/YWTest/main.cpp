@@ -7,15 +7,11 @@
 //
 
 #include <iostream>
-
-#include "YWPhy/YWPhy.hpp"
+#include "YWMath/Vector.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    
-    YWPhy test;
-    test.HelloWorld("Hello World");
     
     return 0;
 }

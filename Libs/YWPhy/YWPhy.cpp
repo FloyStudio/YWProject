@@ -2,13 +2,16 @@
 //  YWPhy.cpp
 //  YWPhy
 //
-//  Created by wangyanqing on 2018/10/17.
+//  Created by wangyanqing on 2018/10/18.
 //  Copyright © 2018年 FloyStudio. All rights reserved.
 //
 
 #include <iostream>
-#include "YWPhy.hpp"
-#include "YWPhyPriv.hpp"
+#include "YWPhy.h"
+#include "YWPhyPriv.h"
+#include "YWMath/Vector.h"
+
+YMath::Vec2 vec(0.0);
 
 void YWPhy::HelloWorld(const char * s)
 {
