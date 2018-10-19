@@ -9,7 +9,7 @@
 #ifndef YWParticle_
 #define YWParticle_
 
-#include "YWMath/Vector.h"
+#include "YWMath/Transform.h"
 namespace YPhy {
     class Particle
     {

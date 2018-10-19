@@ -7,10 +7,12 @@
 //
 
 #include <iostream>
-#include "YWMath/Vector.h"
+#include "YWPhy/YWParticle.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
+    YPhy::Particle partice;
+    
     std::cout << "Hello, World!\n";
     
     return 0;

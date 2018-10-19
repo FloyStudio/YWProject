@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		982B31F0217829150079F26B /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31C9217823440079F26B /* Vector.h */; };
 		982B31FD21782D770079F26B /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31FC21782D770079F26B /* Matrix.h */; };
+		983EF5D62179DC7B00C9049E /* Quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 983EF5D42179DC7B00C9049E /* Quaternion.h */; };
+		983EF5D72179DC7B00C9049E /* Transform.h in Headers */ = {isa = PBXBuildFile; fileRef = 983EF5D52179DC7B00C9049E /* Transform.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		982B31BB21781E400079F26B /* libYWMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		982B31C9217823440079F26B /* Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Vector.h; sourceTree = "<group>"; };
-		982B31FC21782D770079F26B /* Matrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		982B31FC21782D770079F26B /* Matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = Matrix.h; sourceTree = "<group>"; };
+		983EF5D42179DC7B00C9049E /* Quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Quaternion.h; sourceTree = "<group>"; };
+		983EF5D52179DC7B00C9049E /* Transform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Transform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		982B31BD21781E400079F26B /* YWMath */ = {
 			isa = PBXGroup;
 			children = (
+				983EF5D42179DC7B00C9049E /* Quaternion.h */,
+				983EF5D52179DC7B00C9049E /* Transform.h */,
 				982B31C9217823440079F26B /* Vector.h */,
 				982B31FC21782D770079F26B /* Matrix.h */,
 			);
@@ -61,7 +67,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				982B31F0217829150079F26B /* Vector.h in Headers */,
+				983EF5D72179DC7B00C9049E /* Transform.h in Headers */,
 				982B31FD21782D770079F26B /* Matrix.h in Headers */,
+				983EF5D62179DC7B00C9049E /* Quaternion.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

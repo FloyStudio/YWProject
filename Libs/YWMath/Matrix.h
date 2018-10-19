@@ -11,7 +11,7 @@
 
 #include "YWMath/Vector.h"
 
-namespace YWMath {
+namespace YMath {
    class Mat3
    {
    public:

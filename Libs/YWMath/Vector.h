@@ -1,6 +1,6 @@
 //
 //  Vector.h
-//  YWPhy
+//  YWMath
 //
 //  Created by wangyanqing on 2018/10/17.
 //  Copyright © 2018年 FloyStudio. All rights reserved.
