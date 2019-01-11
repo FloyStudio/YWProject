@@ -31,7 +31,7 @@ namespace YMath {
             z = unit_axis.z * s;
         }
         /// copy
-        explicit Quaternion(const Quaternion& q):x(q.x),y(q.y),z(q.z),w(q.w){}
+        Quaternion(const Quaternion& q):x(q.x),y(q.y),z(q.z),w(q.w){}
         /// matrix->quaternion
         ///explicit Quaternion(const Mat3& mat);
         /// identity
