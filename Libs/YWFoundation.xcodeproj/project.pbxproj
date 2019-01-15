@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980B93DF21E87C1500937CC8 /* Task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 980B93DD21E87C1500937CC8 /* Task.cpp */; };
+		980B93E021E87C1500937CC8 /* Task.h in Headers */ = {isa = PBXBuildFile; fileRef = 980B93DE21E87C1500937CC8 /* Task.h */; };
 		982B31F0217829150079F26B /* Vector.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31C9217823440079F26B /* Vector.h */; };
 		982B31FD21782D770079F26B /* Matrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 982B31FC21782D770079F26B /* Matrix.h */; };
 		983EF5D62179DC7B00C9049E /* Quaternion.h in Headers */ = {isa = PBXBuildFile; fileRef = 983EF5D42179DC7B00C9049E /* Quaternion.h */; };
@@ -14,10 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		982B31BB21781E400079F26B /* libYWMath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		980B93DD21E87C1500937CC8 /* Task.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Task.cpp; sourceTree = "<group>"; };
+		980B93DE21E87C1500937CC8 /* Task.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Task.h; sourceTree = "<group>"; wrapsLines = 1; };
+		982B31BB21781E400079F26B /* libYWFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libYWFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		982B31C9217823440079F26B /* Vector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Vector.h; sourceTree = "<group>"; };
 		982B31FC21782D770079F26B /* Matrix.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = Matrix.h; sourceTree = "<group>"; };
-		983EF5D42179DC7B00C9049E /* Quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Quaternion.h; sourceTree = "<group>"; };
+		983EF5D42179DC7B00C9049E /* Quaternion.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Quaternion.h; sourceTree = "<group>"; usesTabs = 0; };
 		983EF5D52179DC7B00C9049E /* Transform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; path = Transform.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +39,7 @@
 		982B31B221781E400079F26B = {
 			isa = PBXGroup;
 			children = (
-				982B31BD21781E400079F26B /* YWMath */,
+				982B31BD21781E400079F26B /* YWFoundation */,
 				982B31BC21781E400079F26B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,22 @@
 		982B31BC21781E400079F26B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				982B31BB21781E400079F26B /* libYWMath.a */,
+				982B31BB21781E400079F26B /* libYWFoundation.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		982B31BD21781E400079F26B /* YWMath */ = {
+		982B31BD21781E400079F26B /* YWFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				983EF5D42179DC7B00C9049E /* Quaternion.h */,
 				983EF5D52179DC7B00C9049E /* Transform.h */,
 				982B31C9217823440079F26B /* Vector.h */,
 				982B31FC21782D770079F26B /* Matrix.h */,
+				980B93DD21E87C1500937CC8 /* Task.cpp */,
+				980B93DE21E87C1500937CC8 /* Task.h */,
 			);
-			path = YWMath;
+			path = YWFoundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,15 +76,16 @@
 				983EF5D72179DC7B00C9049E /* Transform.h in Headers */,
 				982B31FD21782D770079F26B /* Matrix.h in Headers */,
 				983EF5D62179DC7B00C9049E /* Quaternion.h in Headers */,
+				980B93E021E87C1500937CC8 /* Task.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		982B31BA21781E400079F26B /* YWMath */ = {
+		982B31BA21781E400079F26B /* YWFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 982B31C621781E400079F26B /* Build configuration list for PBXNativeTarget "YWMath" */;
+			buildConfigurationList = 982B31C621781E400079F26B /* Build configuration list for PBXNativeTarget "YWFoundation" */;
 			buildPhases = (
 				982B31B721781E400079F26B /* Headers */,
 				982B31B821781E400079F26B /* Sources */,
@@ -88,9 +95,9 @@
 			);
 			dependencies = (
 			);
-			name = YWMath;
+			name = YWFoundation;
 			productName = YWMath;
-			productReference = 982B31BB21781E400079F26B /* libYWMath.a */;
+			productReference = 982B31BB21781E400079F26B /* libYWFoundation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 982B31B621781E400079F26B /* Build configuration list for PBXProject "YWMath" */;
+			buildConfigurationList = 982B31B621781E400079F26B /* Build configuration list for PBXProject "YWFoundation" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				982B31BA21781E400079F26B /* YWMath */,
+				982B31BA21781E400079F26B /* YWFoundation */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980B93DF21E87C1500937CC8 /* Task.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		982B31B621781E400079F26B /* Build configuration list for PBXProject "YWMath" */ = {
+		982B31B621781E400079F26B /* Build configuration list for PBXProject "YWFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				982B31C421781E400079F26B /* Debug */,
@@ -286,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		982B31C621781E400079F26B /* Build configuration list for PBXNativeTarget "YWMath" */ = {
+		982B31C621781E400079F26B /* Build configuration list for PBXNativeTarget "YWFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				982B31C721781E400079F26B /* Debug */,

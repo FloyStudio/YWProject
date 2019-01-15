@@ -50,6 +50,7 @@ namespace YMath {
             y = q.y;
             z = q.z;
             w = q.w;
+            return *this;
         }
         
         /// get radian
@@ -76,7 +77,7 @@ namespace YMath {
         {
             return std::acos(Dot(q))*2.0f;
         }
-        float GetNormalized() const
+        Quaternion GetNormalized() const
         {
             const float s = 1.0f / Magnitude();
             return Quaternion(x*s,y*s,z*s,w*s);

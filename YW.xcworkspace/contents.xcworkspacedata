@@ -5,7 +5,7 @@
       location = "group:Libs/YWPhy.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:Libs/YWMath.xcodeproj">
+      location = "group:/Volumes/SamsungT5/GitHub/YWProject/Libs/YWFoundation.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Demos/YW.xcodeproj">

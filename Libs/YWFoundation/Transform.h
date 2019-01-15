@@ -9,8 +9,8 @@
 #ifndef Transform_h
 #define Transform_h
 
-#include "YWMath/Quaternion.h"
-#include "YWMath/Vector.h"
+#include "YWFoundation/Quaternion.h"
+#include "YWFoundation/Vector.h"
 
 namespace YMath {
     class Transform
