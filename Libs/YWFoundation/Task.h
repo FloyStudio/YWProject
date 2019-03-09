@@ -19,7 +19,7 @@ namespace  YTask {
         BaseTask(){}
         virtual ~BaseTask(){}
         
-        virtual Run() = 0;
+        virtual void Run() = 0;
         virtual std::string GetName() const = 0;
         virtual void AddRef() = 0;
         virtual void RemoveRef() = 0;

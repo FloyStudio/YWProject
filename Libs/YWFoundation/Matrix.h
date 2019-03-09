@@ -9,7 +9,7 @@
 #ifndef Matrix_h
 #define Matrix_h
 
-#include "YWMath/Vector.h"
+#include "YWFoundation/Vector.h"
 
 namespace YMath {
    class Mat3

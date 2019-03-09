@@ -9,7 +9,7 @@
 #ifndef Quaternion_h
 #define Quaternion_h
 
-#include "Vector.h"
+#include "YWFoundation/Vector.h"
 #include <cmath>
 
 namespace YMath {
