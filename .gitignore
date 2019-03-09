@@ -32,3 +32,7 @@
 *.yaml
 *.dat
 *.xcodeproj
+bin/demos/Debug/YWTestDemo
+bin/demos/Debug/YWHelloWorldDemo
+bin/build/XCBuildData/BuildDescriptionCacheIndex-ec67fa0eb5cb46c0636b0cb7570669ce
+bin/app/Debug/YWApplication
