@@ -44,3 +44,14 @@ bin/CMakeFiles/3.12.0-rc1/CompilerIdC/XCBuildData/BuildDescriptionCacheIndex-067
 bin/CMakeFiles/3.12.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp
 bin/CMakeFiles/3.12.0-rc1/CompilerIdCXX/CompilerIdCXX
 bin/CMakeFiles/3.12.0-rc1/CompilerIdCXX/XCBuildData/BuildDescriptionCacheIndex-c133d885db6d55a8b78f93ad71adb82f
+*.depend
+*.vcxproj
+*.filters
+*.stamp
+*.db-shm
+*.rule
+*.list
+*.sln
+bin/CMakeFiles/3.13.2/VCTargetsPath.txt
+*.db-wal
+bin/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
