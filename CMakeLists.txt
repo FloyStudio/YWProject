@@ -7,6 +7,11 @@ endif()
 
 set(DEV_PROJECT_NAME "YWEngine")
 
+#GLFW disable doc/test/examples
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+
 project(${DEV_PROJECT_NAME})
 
 set (LIB_ROOT_DIR libs)
@@ -31,8 +36,10 @@ endif ()
 include_directories (${SRC_ROOT_DIR})
 include_directories (${LIB_ROOT_DIR})
 include_directories (${THIRD_SDK_ROOT_DIR})
+include_directories (${THIRD_SDK_ROOT_DIR}/glfw/include)
 
 #### add src sub dir
 add_subdirectory(libs)
 add_subdirectory(demos)
 add_subdirectory(app)
+add_subdirectory(${THIRD_SDK_ROOT_DIR}/glfw)
