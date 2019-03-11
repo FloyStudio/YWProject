@@ -55,3 +55,5 @@ bin/CMakeFiles/3.12.0-rc1/CompilerIdCXX/XCBuildData/BuildDescriptionCacheIndex-c
 bin/CMakeFiles/3.13.2/VCTargetsPath.txt
 *.db-wal
 bin/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
+bin/demos/Debug/YWHelloGLDemo
+bin/demos/Debug/YWVulkanDemo

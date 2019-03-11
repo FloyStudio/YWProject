@@ -37,6 +37,18 @@ include_directories (${SRC_ROOT_DIR})
 include_directories (${LIB_ROOT_DIR})
 include_directories (${THIRD_SDK_ROOT_DIR})
 include_directories (${THIRD_SDK_ROOT_DIR}/glfw/include)
+if (WIN32)
+    #to be config
+	set(VULKAN_LIBRARY ${THIRD_SDK_ROOT_DIR}/vulkan/win/lib)
+	set(VULKAN_INCLUDE_DIR ${THIRD_SDK_ROOT_DIR}/vulkan/win/include)
+	include_directories (${VULKAN_INCLUDE_DIR})
+	link_directories(${VULKAN_LIBRARY})
+else (APPLE)
+    set(VULKAN_LIBRARY ${THIRD_SDK_ROOT_DIR}/vulkan/mac/lib)
+	set(VULKAN_INCLUDE_DIR ${THIRD_SDK_ROOT_DIR}/vulkan/mac/include)
+	include_directories (${VULKAN_INCLUDE_DIR})
+	link_directories(${VULKAN_LIBRARY})
+endif ()
 
 #### add src sub dir
 add_subdirectory(libs)
