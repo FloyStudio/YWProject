@@ -26,7 +26,6 @@
 *.log
 *.xcbuild
 *.cxx
-*.c
 *.check_cache
 *.hmap
 *.yaml
@@ -57,3 +56,5 @@ bin/CMakeFiles/3.13.2/VCTargetsPath.txt
 bin/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 bin/demos/Debug/YWHelloGLDemo
 bin/demos/Debug/YWVulkanDemo
+bin/CMakeFiles/3.12.0-rc1/CompilerIdC/CMakeCCompilerId.c
+bin/CMakeFiles/feature_tests.c
