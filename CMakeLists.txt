@@ -39,7 +39,7 @@ include_directories (${THIRD_SDK_ROOT_DIR})
 include_directories (${THIRD_SDK_ROOT_DIR}/glfw/include)
 if (WIN32)
     #to be config
-	set(VULKAN_LIBRARY ${THIRD_SDK_ROOT_DIR}/vulkan/win/lib)
+	set(VULKAN_LIBRARY ${THIRD_SDK_ROOT_DIR}/vulkan/win/Lib)
 	set(VULKAN_INCLUDE_DIR ${THIRD_SDK_ROOT_DIR}/vulkan/win/include)
 	include_directories (${VULKAN_INCLUDE_DIR})
 	link_directories(${VULKAN_LIBRARY})
