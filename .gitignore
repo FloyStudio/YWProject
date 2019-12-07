@@ -12,7 +12,6 @@
 *.d
 *.cmake
 *.makeRelease
-*.make
 *.makeDebug
 *.dia
 *.bin
