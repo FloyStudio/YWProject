@@ -18,9 +18,3 @@ target_link_libraries(YWHelloGLDemo glfw)
 find_package(OpenGL REQUIRED)
 include_directories(YWHelloGLDemo ${OPENGL_INCLUDE_DIR})
 target_link_libraries(YWHelloGLDemo ${OPENGL_gl_LIBRARY})
-
-
-aux_source_directory(./YWSwift YW_SWIFT_DEMO)
-add_executable (YWSwiftDemo ${YW_SWIFT_DEMO})
-target_link_libraries(YWSwiftDemo YWFoundation)
-target_link_libraries(YWSwiftDemo YWPhysics)
