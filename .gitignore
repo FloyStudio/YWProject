@@ -18,7 +18,6 @@
 *.bin
 *.log
 *.xcbuild
-*.cxx
 *.check_cache
 *.hmap
 *.yaml
@@ -28,7 +27,6 @@
 *.db-shm
 *.rule
 *.list
-*.sln
 *.db-wal
 *.obj
 *.pdb
